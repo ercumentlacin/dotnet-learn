@@ -1,0 +1,12 @@
+/Users/ercumentlacin/RiderProjects/example1/LMS.Data/bin/Debug/net6.0/LMS.Data.deps.json
+/Users/ercumentlacin/RiderProjects/example1/LMS.Data/bin/Debug/net6.0/LMS.Data.dll
+/Users/ercumentlacin/RiderProjects/example1/LMS.Data/bin/Debug/net6.0/LMS.Data.pdb
+/Users/ercumentlacin/RiderProjects/example1/LMS.Data/obj/Debug/net6.0/LMS.Data.csproj.AssemblyReference.cache
+/Users/ercumentlacin/RiderProjects/example1/LMS.Data/obj/Debug/net6.0/LMS.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ercumentlacin/RiderProjects/example1/LMS.Data/obj/Debug/net6.0/LMS.Data.AssemblyInfoInputs.cache
+/Users/ercumentlacin/RiderProjects/example1/LMS.Data/obj/Debug/net6.0/LMS.Data.AssemblyInfo.cs
+/Users/ercumentlacin/RiderProjects/example1/LMS.Data/obj/Debug/net6.0/LMS.Data.csproj.CoreCompileInputs.cache
+/Users/ercumentlacin/RiderProjects/example1/LMS.Data/obj/Debug/net6.0/LMS.Data.dll
+/Users/ercumentlacin/RiderProjects/example1/LMS.Data/obj/Debug/net6.0/refint/LMS.Data.dll
+/Users/ercumentlacin/RiderProjects/example1/LMS.Data/obj/Debug/net6.0/LMS.Data.pdb
+/Users/ercumentlacin/RiderProjects/example1/LMS.Data/obj/Debug/net6.0/ref/LMS.Data.dll
