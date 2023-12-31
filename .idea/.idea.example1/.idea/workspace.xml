@@ -8,24 +8,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ac6868a-afc3-4c9d-b2f4-6139d6f12648" name="Changes" comment="an error">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.example1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.example1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/Controller/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Controller/UserController.cs" afterDir="false" />
+    <list default="true" id="3ac6868a-afc3-4c9d-b2f4-6139d6f12648" name="Changes" comment="fix migration problem">
+      <change beforePath="$PROJECT_DIR$/LMS.Data/bin/Debug/net6.0/LMS.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LMS.Data/bin/Debug/net6.0/LMS.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS.Data/bin/Debug/net6.0/LMS.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LMS.Data/bin/Debug/net6.0/LMS.Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/LMS.Data.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/LMS.Data.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/LMS.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/LMS.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/LMS.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/LMS.Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/ref/LMS.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/ref/LMS.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/refint/LMS.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/refint/LMS.Data.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/LMS.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/LMS.Data.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/LMS.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/LMS.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/WebApplication1.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/WebApplication1.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/WebApplication1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/WebApplication1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/WebApplication1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/WebApplication1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/WebApplication1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/WebApplication1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/WebApplication1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/WebApplication1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/ref/WebApplication1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/ref/WebApplication1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/refint/WebApplication1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/refint/WebApplication1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,31 +56,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "v02",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "RiderNuGetOptionsPageId",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;v02&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;RiderNuGetOptionsPageId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "GitIgnore"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;GitIgnore&quot;
     ],
-    "rider.external.source.directories": [
-      "/Users/ercumentlacin/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
-      "/Users/ercumentlacin/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache",
-      "/Users/ercumentlacin/.local/share/Symbols/src"
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/ercumentlacin/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/ercumentlacin/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
+      &quot;/Users/ercumentlacin/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebApplication1">
     <configuration name="WebApplication1" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApplication1/WebApplication1.csproj" />
@@ -141,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704048363930</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix migration problem">
+      <option name="closed" value="true" />
+      <created>1704049431296</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704049431296</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +182,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="an error" />
-    <option name="LAST_COMMIT_MESSAGE" value="an error" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="fix migration problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix migration problem" />
   </component>
 </project>
