@@ -1,4 +1,6 @@
 using LMS.Data.Entities;
+using LMS.Data.Repositories;
+using LMS.Data.Repositories.User;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,10 +16,15 @@ builder.Services.AddCors(options =>
     });
 });
 
+// DB  Config
 builder.Services.AddDbContext<LMSDBContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString"));
 });
+
+// Dependency Injection
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 var app = builder.Build();
 

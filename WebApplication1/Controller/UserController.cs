@@ -1,4 +1,5 @@
 using LMS.Data.Entities;
+using LMS.Data.Repositories.User;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication1.Controller
@@ -7,47 +8,43 @@ namespace WebApplication1.Controller
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly LMSDBContext _context;
+        // private readonly LMSDBContext _context;
+        private readonly IUserRepository _repository;
 
-        public UserController(LMSDBContext context)
+        public UserController(IUserRepository repository)
         {
-            _context = context;
+            _repository = repository;
         }
 
+
         [HttpGet]
-        public List<User> Get()
+        public async Task<IEnumerable<User>> Get()
         {
-            return _context.Users.ToList();
+            return await _repository.GetAllAsync();
         }
 
         [HttpGet("{id}")]
-        public User? Get(int id)
+        public async Task<User?> Get(int id)
         {
-            return _context.Users.Find(id);
+            return  await _repository.GetByIdAsync(id)!;
         }
 
         [HttpPost]
-        public void Post([FromBody] User user)
+        public async Task<User> Post([FromBody] User user)
         {
-            _context.Users.Add(user);
-            _context.SaveChanges();
+            return await _repository.InsertAsync(user);
         }
 
         [HttpPut]
-        public User Put([FromBody] User user)
+        public async Task<User> Put([FromBody] User user)
         {
-            _context.Users.Update(user);
-            _context.SaveChanges();
-            return user;
+            return await _repository.UpdateAsync(user);
         }
 
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<User?> Delete(int id)
         {
-            var user = _context.Users.Find(id);
-            if (user == null) return;
-            _context.Users.Remove(user);
-            _context.SaveChanges();
+            return await _repository.DeleteAsync(id);
         }
     }
 } 

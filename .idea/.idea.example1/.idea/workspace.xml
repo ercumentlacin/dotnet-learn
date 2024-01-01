@@ -9,6 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ac6868a-afc3-4c9d-b2f4-6139d6f12648" name="Changes" comment="fix migration problem">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LMS.Data/Repositories/GenericRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LMS.Data/Repositories/IGenericRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LMS.Data/Repositories/User/IUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LMS.Data/Repositories/User/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.example1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.example1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LMS.Data/bin/Debug/net6.0/LMS.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LMS.Data/bin/Debug/net6.0/LMS.Data.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LMS.Data/bin/Debug/net6.0/LMS.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LMS.Data/bin/Debug/net6.0/LMS.Data.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/LMS.Data.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/LMS.Data.csproj.CoreCompileInputs.cache" afterDir="false" />
@@ -16,15 +22,19 @@
       <change beforePath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/LMS.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/LMS.Data.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/ref/LMS.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/ref/LMS.Data.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/refint/LMS.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LMS.Data/obj/Debug/net6.0/refint/LMS.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS.Data/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/LMS.Data/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/Controller/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Controller/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/LMS.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/LMS.Data.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/LMS.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/LMS.Data.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/WebApplication1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/WebApplication1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/WebApplication1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/WebApplication1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/Debug/net6.0/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/WebApplication1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/WebApplication1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/WebApplication1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/WebApplication1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/ref/WebApplication1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/ref/WebApplication1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/refint/WebApplication1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/net6.0/refint/WebApplication1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication1/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +53,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2f3e6bfc214439fa30f166129cdd87564821bb95bd98bf795db8c3e13848093/WebApplication.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7733bdb26b2be012c4266979a95d3728e74790201f91a02df4529ee6c2f37/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9156f7f7d7fe31ecb86103c74e89e22a5242a153d4ccf14e354685cb3fb7b5/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9a7bcce7fffe43f6a6676924a7bb2520b54c00/_b393b/IEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9a7bcce7fffe43f6a6676924a7bb2520b54c00/_e9155/IEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eda66d8c7aff6647d653292d4ea2f696b8f6ba94b9f24bc275d4f924599d8f/ControllerEndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f2f4ea4be0f58388a6d69b13d4a4877d1af1a1b9c84cbddcd4cce241688b183/Controller.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -51,7 +64,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2ZrWNU6hra70oBirvFwsHHdTAzu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -123,6 +138,7 @@
       <updated>1703180639487</updated>
       <workItem from="1703180641402" duration="2941000" />
       <workItem from="1703943958915" duration="8341000" />
+      <workItem from="1704116130098" duration="3045000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
